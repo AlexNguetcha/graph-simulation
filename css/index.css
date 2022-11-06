@@ -44,6 +44,23 @@ body{
     user-select: none;
     transition: .2s ease-in-out;
 }
+.vertex{
+    position:absolute;
+    padding:0px; 
+    margin:0px;
+    line-height:1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.vertex>div{
+    
+}
+.vertex:hover{
+    color:  var(--active-green) !important;
+    scale: .98 !important;
+}
 .actionCommand:hover{
     background-color: var(--active-white);
 }
@@ -73,6 +90,7 @@ body{
     border-radius: 50%;
     color: var(--white);
     user-select: none;
+    z-index: 4;
 }
 .graph-node:hover{
     scale: .98;
